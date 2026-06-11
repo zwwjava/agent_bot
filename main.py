@@ -35,7 +35,7 @@ async def main():
 
         # 调用智能体
         try:
-            response = await chat(agent, user_input)
+            response = await chat(agent, chat_prompt, user_input)
             print(f"\n助手: {response}")
         except Exception as e:
             logger.error(f"对话异常: {str(e)}")

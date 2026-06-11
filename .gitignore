@@ -1,0 +1,117 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+/test/
+/api_doc/
+/ai_dev_doc/
+/nacos-data/
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs/runtime artifacts (this project uses logs/app.log by default)
+logs/
+*.log
+
+# Local scratch/docs (optional)
+refactor_temp/
+
+# Local docs (do not commit)
+context.md
+Review_Plan.md
+
+# Local env/secrets (do not commit)
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Local config overrides (store real keys here, keep repo file as example)
+config/*.local.txt
+
+# Editor/OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+/eval/*.txt
+
+# Local sensitive files
+*.code-workspace
+.agent/
+config/settings.example.py
+/reference/
+/nacos-data/snapshot/final-conclusion-config+DEFAULT_GROUP+dev
+/refactor_temp/test_vague.py
+/refactor_temp/test_vague_client.py
+/guess_test_multi_v2.csv
+/guess_test_results.csv
+/guess_test_results_v2.csv
+/run_test.py
+/test_retrieval.py
+/demo_test_guess.py
+/demo_bailian_parse.py
+/bailian_debug_result.txt
+/remove_volcano_refactor_prompt.md
+
+# 评测目录（本地工具，不提交）
+/eval/
+/.temp_git_log.txt
+/liuyu-XCdrM_yunxiao_ed25519.pub
+/liuyu-XCdrM_yunxiao_ed25519
+/generate_yunxiao_ssh_key.cmd
+/prompts_backup/__init__.py
+/prompts_backup/chat.py
+/prompts_backup/combo.py
+/prompts_backup/comparison.py
+/prompts_backup/decision.py
+/prompts_backup/guess.py
+/prompts_backup/multi.py
+/prompts_backup/multi_guess.py
+/prompts_backup/single.py
+/prompts_backup/single_guess.py
+/prompts_backup/tags.py
+/prompts_backup/vague_guess_with_skus.py
+/prompts_backup/vague_guess_without_skus.py
+/prompts_backup/vague_no_skus.py
+/prompts_backup/vague_with_skus.py
+/prompts_backup/bubble_generator.md
+/prompts_backup/miv_extractor.md
+/prompts_backup/reply_generator.md
+/temp/project_nacos_client.py
+/temp/raw_nacos_client.py
+/temp/test_project_nacos_client.py
+/temp/query_product_search_1711408.py
+/test_single_guess_port.py
+/prompts/multi/bubble_generator.py
+/prompts/multi/miv_extractor.py
+/prompts/multi/reply_generator.py
+/prompts/vague/bubble_generator.py
+/prompts/vague/miv_extractor.py
+/prompts/vague/reply_generator.py
+/temp/demo_eval/outputs/report.md
+/temp/demo_eval/outputs/report_prev.md
+/temp/demo_eval/outputs/result.json
+/temp/demo_eval/outputs/result_prev.json
+/temp/demo_eval/data.py
+/temp/demo_eval/prompts.py
+/temp/demo_eval/run.py
+/temp/demo_eval/run_prev.py
+/temp/promptfoo_raw/outputs/config.json
+/temp/promptfoo_raw/outputs/results.json
+/temp/promptfoo_raw/data.py
+/temp/promptfoo_raw/prompts.py
+/temp/promptfoo_raw/run.py
+/prompts_backup/幂等_去重_状态检查说明.md

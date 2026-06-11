@@ -53,6 +53,17 @@ def _build_mcp_config() -> dict:
         }
     }
 
+# {
+#   "mcpServers": {
+#     "my-coffee": {
+#       "type": "streamablehttp",
+#       "url": "https://gwmcp.lkcoffee.com/order/user/mcp",
+#       "headers": {
+#         "Authorization": "Bearer 1b5c2af6f827441ba6fc289a1d454f820mcpLUCKIN_MCP_AI"
+#       }
+#     }
+#   }
+# }
 
 def register_coffee_skill():
     """注册咖啡下单 skill"""
